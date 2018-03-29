@@ -13,8 +13,6 @@ AHexaTerrain::AHexaTerrain()
 
 	this->Floor = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("Floor"));
 	this->RootComponent = Floor;
-
-	this->BuildTerrain();
 }
 
 // Called when the game starts or when spawned
